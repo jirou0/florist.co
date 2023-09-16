@@ -41,13 +41,13 @@ if(isset($_POST['submit'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>register</title>
+   <title>Forgot Password</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="../style.css">
 
 </head>
 <body>
@@ -68,11 +68,8 @@ if(isset($message)){
 <section class="form-container">
 
    <form action="" method="post">
-      <h3>Daftar sekarang</h3>
-      <input type="text" name="name" class="box" placeholder="enter your username" required>
+      <h3>Lupa Katasandi</h3>
       <input type="email" name="email" class="box" placeholder="enter your email" required>
-      <input type="password" name="pass" class="box" placeholder="enter your password" required>
-      <input type="password" name="cpass" class="box" placeholder="confirm your password" required>
       <input type="question_forgot" name="question" class="box" placeholder="enter hint for forgot password" required>
       <input type="answer_forgot" name="answer" class="box" placeholder="enter the hint" required>
       <input type="submit" class="btn" name="submit" value="register now">

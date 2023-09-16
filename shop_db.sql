@@ -137,19 +137,19 @@ CREATE TABLE `users` (
   `name` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL,
   `password` varchar(100) NOT NULL,
-  `user_type` varchar(20) NOT NULL DEFAULT 'user'
+  `user_type` varchar(20) NOT NULL DEFAULT 'user',
+  `answer_forgot` varchar(100) NOT NULL,
+  `question_forgot` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `name`, `email`, `password`, `user_type`) VALUES
-(10, 'admin A', 'admin01@gmail.com', '698d51a19d8a121ce581499d7b701668', 'admin'),
-(14, 'user A', 'user01@gmail.com', '698d51a19d8a121ce581499d7b701668', 'user'),
-(15, 'user B', 'user02@gmail.com', '698d51a19d8a121ce581499d7b701668', 'user');
+
 
 -- --------------------------------------------------------
+
 
 --
 -- Table structure for table `wishlist`
