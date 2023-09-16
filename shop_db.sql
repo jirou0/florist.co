@@ -144,10 +144,6 @@ CREATE TABLE `users` (
 
 --
 -- Dumping data for table `users`
---
-
-
-
 -- --------------------------------------------------------
 
 
